@@ -1751,7 +1751,7 @@ img {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   .header-style-1 .navigation, .header-style-2 .navigation, .header-style-3 .navigation {
-    background: transparent;
+    background: #006400;
   }
   .header-style-1 .navbar-nav, .header-style-2 .navbar-nav, .header-style-3 .navbar-nav {
     margin-left: 60px;
