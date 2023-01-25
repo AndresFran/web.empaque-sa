@@ -24,6 +24,10 @@
     <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <!--CARRUSEL DE IMÁGENES-->
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -165,10 +169,33 @@
                         </div>
                     </div>
                     
+                    
                     <div class="col col-md-6">
                         <div class="right-col">
                            
-                            <img src="/docs/assets/images/ico-empaque-nuevo1.png" alt="">
+                            <div class="swiffy-slider">
+                                <ul class="slider-container">
+                                    <li><img src="assets/images/img-acerca/maquina-1.jpg" style="max-width: 100%;height: auto;"></li>
+                                    <li><img src="assets/images/img-acerca/maquina-2.jpg" style="max-width: 100%;height: auto;"></li>
+                                    <li><img src="assets/images/img-acerca/maquina-3.jpg" style="max-width: 100%;height: auto;"></li>
+                                    <li><img src="assets/images/img-acerca/maquina-4.jpg" style="max-width: 100%;height: auto;"></li>
+                                    <li><img src="assets/images/img-acerca/maquina-5.jpg" style="max-width: 100%;height: auto;"></li>
+                                    <li><img src="assets/images/img-acerca/maquina-6.jpg" style="max-width: 100%;height: auto;"></li>
+                                    <li><img src="assets/images/img-acerca/maquina-7.jpg" style="max-width: 100%;height: auto;"></li>
+                                    <li><img src="assets/images/img-acerca/maquina-8.jpg" style="max-width: 100%;height: auto;"></li>
+                                    <li><img src="assets/images/img-acerca/maquina-9.jpg" style="max-width: 100%;height: auto;"></li>
+                                    <li><img src="assets/images/img-acerca/maquina-10.jpg" style="max-width: 100%;height: auto;"></li>
+                                </ul>
+                            
+                                <button type="button" class="slider-nav"></button>
+                                <button type="button" class="slider-nav slider-nav-next"></button>
+                            
+                                <div class="slider-indicators">
+                                    <button class="active"></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
                             
                         </div>
                     </div>
